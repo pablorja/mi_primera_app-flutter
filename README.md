@@ -1,17 +1,22 @@
 # mi_primera_app
 
-A new Flutter project.
+Este proyecto es educativo y tiene como finalidad aprender a crear aplicaciones
+con Flutter. Sirve como espacio de práctica para explorar conceptos de desarrollo
+móvil y experimentar con la creación de interfaces.
 
-## Getting Started
+## Requisitos
 
-This project is a starting point for a Flutter application.
+- Flutter instalado y configurado.
+- Un emulador o dispositivo compatible, o un navegador web.
 
-A few resources to get you started if this is your first Flutter project:
+## Ejecutar la aplicación
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+Desde la carpeta del proyecto, instala las dependencias y ejecuta la app:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```sh
+flutter pub get
+flutter run
+```
+
+Para aprender más sobre Flutter, consulta la
+[documentación oficial](https://docs.flutter.dev/).

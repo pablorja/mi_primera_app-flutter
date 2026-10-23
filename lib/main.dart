@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
- 
+
 void main() => runApp(
   MaterialApp(
     home: Scaffold(
@@ -7,17 +7,22 @@ void main() => runApp(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            const Text('Pablo Santanaria Borja', style: TextStyle(fontSize: 30)),
+            const Text('Miscolores favoritos', style: TextStyle(fontSize: 30)),
             const SizedBox(height: 10),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Container(width: 60, height: 60, color: const Color.fromARGB(0, 0, 0, 0)),
+                Container(width: 60, height: 60, color: Colors.black),
                 const SizedBox(width: 10),
-                Container(width: 60, height: 60, color: const Color.fromARGB(255, 58, 181, 15)),
-                const SizedBox(width: 10),
-                Container(width: 60, height: 60, color: const Color.fromARGB(255, 197, 200, 8)),
+                Container(width: 60, height: 60, color: Colors.blue),
+                const SizedBox(width: 10),git status
+                Container(width: 60, height: 60, color: Colors.red),
               ],
+            ),
+            const SizedBox(height: 40),
+            const Text(
+              'Hecho por Pablo Santanaria Borja',
+              style: TextStyle(fontSize: 20),
             ),
           ],
         ),
