@@ -15,7 +15,7 @@ void main() => runApp(
                 Container(width: 60, height: 60, color: Colors.black),
                 const SizedBox(width: 10),
                 Container(width: 60, height: 60, color: Colors.blue),
-                const SizedBox(width: 10),git status
+                const SizedBox(width: 10),
                 Container(width: 60, height: 60, color: Colors.red),
               ],
             ),
@@ -30,5 +30,3 @@ void main() => runApp(
     ),
   ),
 );
- 
- 
